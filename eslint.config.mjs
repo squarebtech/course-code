@@ -20,8 +20,7 @@ export default [
             // Define your plugins here if needed
         },
         extends: [
-            "eslint:recommended",
-            "standard" // Change this to "standard" or "google" if you chose those
+            "eslint:recommended"
         ]
     }
 ];
