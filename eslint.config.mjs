@@ -18,9 +18,6 @@ export default [
         },
         plugins: {
             // Define your plugins here if needed
-        },
-        extends: [
-            "eslint:recommended"
-        ]
+        }
     }
 ];
