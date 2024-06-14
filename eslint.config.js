@@ -6,7 +6,7 @@ module.exports = {
   },
   "extends": [
       "eslint:recommended",
-      "airbnb-base" // Change this to "standard" or "google" if you chose those
+      'standard'
   ],
   "overrides": [
   ],
