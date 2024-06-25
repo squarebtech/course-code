@@ -11,11 +11,11 @@ jobs:
           - os: ubuntu-latest
             is-ubuntu: true
           - os: macos-latest
-            node-version: 15
+            node-version: 18
           - experimental: false
           - os: ubuntu-latest
             node-version: 16
-            experimantal: true
+            experimental: true
           - os: ubuntu-latest
             node-version: 17
         exclude:
