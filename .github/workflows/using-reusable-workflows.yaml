@@ -10,7 +10,7 @@ on:
 
 jobs:
   calling-a-reusable-wf:
-    uses: squarebtech/eslint/.github/workflows/reusable.yaml@main
+    uses: squarebtech/workflows/.github/workflows/reusable.yaml@main
     with:
       name: ${{ inputs.name }}
     secrets:
