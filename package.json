@@ -4,7 +4,8 @@
   "description": "A reusable GitHub Actions workflow to run ESLint",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest --coverage"
   },
   "author": "Brian",
   "license": "MIT",
